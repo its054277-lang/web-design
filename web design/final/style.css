@@ -1,0 +1,293 @@
+body {
+margin: 0;
+/* removes default space around the page */
+
+font-family: Arial, sans-serif;
+/* sets the font style of the whole website */
+
+background: #0b0f1a;
+/* sets dark background color */
+
+color: #e5e7eb;
+/* sets default text color (light gray) */
+}
+
+/* ================= HEADER ================= */
+
+header {
+text-align: center;
+/* centers all text inside header */
+
+padding: 40px 20px;
+/* adds space inside header (top-bottom 40px, left-right 20px) */
+
+background: #111827;
+/* dark background for header */
+
+border-bottom: 2px solid #1f2937;
+/* adds bottom line under header */
+}
+
+.quote {
+font-style: italic;
+/* makes text slanted (quote style) */
+
+color: #93c5fd;
+/* light blue color for quote */
+
+margin-top: 10px;
+/* adds space above quote */
+}
+
+/* ================= NAVIGATION ================= */
+
+nav a {
+color: #93c5fd;
+/* link color */
+
+margin: 0 10px;
+/* space between links */
+
+text-decoration: none;
+/* removes underline from links */
+}
+
+.museum-nav a {
+display: inline-block;
+/* makes links behave like boxes */
+
+margin: 5px;
+/* space around each link */
+
+padding: 8px 14px;
+/* space inside each link box */
+
+border: 1px solid #374151;
+/* border around links */
+
+border-radius: 8px;
+/* rounded corners */
+}
+
+/* ================= MAIN SECTION ================= */
+
+.museum {
+display: flex;
+/* enables flexible layout */
+
+flex-direction: column;
+/* stacks items vertically */
+
+gap: 30px;
+/* space between sections */
+
+padding: 40px;
+/* space inside main container */
+
+align-items: center;
+/* centers items horizontally */
+}
+
+.exhibit {
+width: min(900px, 80%);
+/* limits width (max 900px or 80% screen) */
+
+background: #111827;
+/* background color of each room */
+
+border-radius: 16px;
+/* rounded corners */
+
+padding: 30px;
+/* space inside each section */
+}
+
+/* ================= MEDIA (IMAGE + VIDEO) ================= */
+
+.exhibit-img {
+width: 100%;
+/* image takes full width */
+
+max-height: 300px;
+/* limits height */
+
+object-fit: contain;
+/* keeps image proportions */
+
+border-radius: 10px;
+/* rounded corners */
+}
+
+.audio {
+width: 100%;
+/* audio player full width */
+
+margin-top: 10px;
+/* space above audio */
+}
+
+/* ================= CONTACT TEXT ================= */
+
+.intro-text {
+font-style: italic;
+/* italic style */
+
+color: #c084fc;
+/* purple color */
+
+margin-bottom: 10px;
+/* space below */
+
+line-height: 1.6;
+/* better readability */
+
+text-align: center;
+/* centers text */
+}
+
+.sub-text {
+color: #9ca3af;
+/* gray text */
+
+margin-bottom: 20px;
+/* space below */
+
+text-align: center;
+/* center alignment */
+}
+
+.contact-container {
+display: flex;
+/* flexible layout */
+
+justify-content: center;
+/* centers content horizontally */
+
+padding: 40px;
+/* space around container */
+}
+
+.contact-box {
+width: min(600px, 90%);
+/* responsive width */
+
+background: #111827;
+/* dark box background */
+
+border: 1px solid #374151;
+/* border around box */
+
+border-radius: 16px;
+/* rounded corners */
+
+padding: 30px;
+/* internal spacing */
+
+box-shadow: 0 0 15px rgba(59, 130, 246, 0.15);
+/* soft glow effect */
+}
+
+/* ================= FORM ================= */
+
+form {
+display: flex;
+/* flexible layout */
+
+flex-direction: column;
+/* stack inputs vertically */
+
+gap: 12px;
+/* space between fields */
+}
+
+input,
+textarea {
+padding: 12px;
+/* space inside inputs */
+
+border-radius: 10px;
+/* rounded corners */
+
+border: none;
+/* removes default border */
+
+background: #1f2937;
+/* dark input background */
+
+color: white;
+/* text color */
+
+font-size: 14px;
+/* text size */
+}
+
+input:focus,
+textarea:focus {
+outline: 2px solid #3b82f6;
+/* blue outline when clicking input */
+}
+
+/* ================= BUTTON ================= */
+
+button {
+padding: 12px;
+/* space inside button */
+
+border: none;
+/* removes border */
+
+background: #3b82f6;
+/* blue background */
+
+color: white;
+/* white text */
+
+border-radius: 10px;
+/* rounded corners */
+
+cursor: pointer;
+/* pointer hand on hover */
+
+transition: 0.3s;
+/* smooth animation */
+}
+
+button:hover {
+background: #2563eb;
+/* darker blue on hover */
+
+transform: scale(1.03);
+/* slightly enlarges button */
+}
+
+/* ================= SUCCESS MESSAGE ================= */
+
+#msg {
+font-size: 14px;
+/* text size */
+
+color: #22c55e;
+/* green color for success */
+
+text-align: center;
+/* center text */
+}
+
+/* ================= FOOTER ================= */
+
+footer {
+text-align: center;
+/* center footer text */
+
+padding: 20px;
+/* space inside footer */
+
+border-top: 1px solid #1f2937;
+/* top border line */
+
+margin-top: 40px;
+/* space above footer */
+
+color: #9ca3af;
+/* gray text color */
+}

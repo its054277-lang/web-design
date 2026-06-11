@@ -1,0 +1,221 @@
+<!DOCTYPE html> <!-- Defines this file as an HTML document -->
+
+<html lang="en"> <!-- The root of the page (everything is inside it), language = English -->
+
+<head>
+  <meta charset="UTF-8"> <!-- Allows all characters and emojis -->
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Makes the page responsive on phone and different screen sizes -->
+
+  <title>Time Archive Museum</title>
+  <!-- Title shown in browser tab -->
+
+  <link rel="stylesheet" href="style.css">
+  <!-- Connects this page to CSS file for design -->
+</head>
+
+<body> <!-- All visible content appears inside body -->
+
+<header> <!-- Top part of the page (title + navigation) -->
+
+  <h1>⏳ TIME ARCHIVE MUSEUM</h1>
+  <!-- h1 = main heading (biggest title on the page) -->
+
+  <p>"Time preserved as emotional artifacts"</p>
+  <!-- p = paragraph (used for normal text) -->
+
+  <p class="quote">
+    "Time is not what we see on clocks, but what we feel in moments."
+  </p>
+  <!-- p with class = styled paragraph using CSS -->
+
+  <nav class="museum-nav">
+  <!-- nav = navigation section (contains links) -->
+
+
+<a href="#past">Past</a>
+<!-- a = anchor (link), moves to section with id="past" -->
+
+<a href="#present">Present</a>
+<!-- link to present section -->
+
+<a href="#future">Future</a>
+<!-- link to future section -->
+
+<a href="#emotion">Emotion</a>
+<!-- link to emotion section -->
+
+<a href="contact.html">Contact</a>
+<!-- link to another page -->
+
+
+  </nav>
+
+  <p class="note">🎧 Play audio in each room for full experience</p>
+  <!-- paragraph used as a note -->
+
+</header>
+
+<main class="museum">
+<!-- main = main content of the page -->
+
+  <section class="exhibit" id="past">
+  <!-- section = part of the page, id used for navigation -->
+
+
+<div class="media-box">
+<!-- div = container used to group elements -->
+
+  <img src="./assets/images/past.jpg" alt="Past Room" class="exhibit-img">
+  <!-- img = image element, src = file path, alt = description -->
+
+</div>
+
+<h2>🕰️ The Past Room</h2>
+<!-- h2 = subheading (smaller than h1, used for section titles) -->
+
+<p>Memories stored like artifacts. Every moment still exists emotionally in memory.</p>
+<!-- paragraph text -->
+
+<details>
+<!-- details = hidden content that can be opened -->
+
+  <summary>Read deeper meaning</summary>
+  <!-- summary = clickable title for details -->
+
+  <p>The past is preserved as emotional data inside human memory.</p>
+
+</details>
+
+<audio controls class="audio">
+<!-- audio = sound player, controls = show play button -->
+
+  <source src="./assets/audio/past.mp3">
+  <!-- source = audio file -->
+
+</audio>
+
+<div class="label">Artifact ID: TM-PAST-001</div>
+<!-- div used as a label -->
+
+
+  </section>
+
+  <!-- SAME STRUCTURE REPEATS FOR OTHER ROOMS -->
+
+  <section class="exhibit" id="present">
+
+
+<div class="media-box">
+  <img src="./assets/images/present.jpg" alt="Present Room" class="exhibit-img">
+</div>
+
+<h2>🌿 The Present Room</h2>
+
+<p>The only moment we truly own — it disappears while we live it.</p>
+
+<details>
+  <summary>Read deeper meaning</summary>
+  <p>The present constantly becomes memory.</p>
+</details>
+
+<audio controls class="audio">
+  <source src="./assets/audio/present.mp3">
+</audio>
+
+<div class="label">Artifact ID: TM-PRES-002</div>
+
+
+  </section>
+
+  <section class="exhibit" id="future">
+
+
+<div class="media-box">
+  <img src="./assets/images/future.jpg" alt="Future Room" class="exhibit-img">
+</div>
+
+<h2>🚀 The Future Room</h2>
+
+<p>A space of imagination, uncertainty, and infinite possibilities.</p>
+
+<details>
+  <summary>Read deeper meaning</summary>
+  <p>The future exists only as probability and imagination.</p>
+</details>
+
+<audio controls class="audio">
+  <source src="./assets/audio/future.mp3">
+</audio>
+
+<div class="label">Artifact ID: TM-FUT-003</div>
+
+
+  </section>
+
+  <section class="exhibit" id="emotion">
+
+
+<div class="media-box">
+
+  <video class="exhibit-img" controls>
+  <!-- video = plays video, controls = play/pause buttons -->
+
+    <source src="./assets/videos/emotion.mp4" type="video/mp4">
+    <!-- source = video file -->
+
+  </video>
+
+</div>
+
+<h2>💭 Emotional Time Room</h2>
+
+<p>Time is not equal for everyone — it changes with emotions.</p>
+
+<details>
+  <summary>Read deeper meaning</summary>
+  <p>Emotion distorts human perception of time.</p>
+</details>
+
+<audio controls class="audio">
+  <source src="./assets/audio/emotion.mp3">
+</audio>
+
+<div class="label">Artifact ID: TM-EMO-004</div>
+
+
+  </section>
+
+  <section class="credits">
+  <!-- section for project information -->
+
+
+<h2>🎓 Project Credits</h2>
+
+<p>Created by: <strong>Fatima Sahili</strong></p>
+<!-- strong = makes text bold -->
+
+<p>Instructor: <strong>Dr. Nagham Fakih</strong></p>
+
+<p class="thanks">
+  Special thanks to my instructor for her guidance, support,
+  and inspiration throughout this project.
+</p>
+
+
+  </section>
+
+</main>
+
+<footer>
+<!-- footer = bottom part of the page -->
+
+  <p>⏳ Time Archive Museum</p>
+  <p>Final Project – Web Design Course</p>
+  <p>© 2026 Fatima Sahili</p>
+
+</footer>
+
+</body>
+</html>
